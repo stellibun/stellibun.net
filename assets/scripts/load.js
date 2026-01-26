@@ -1,6 +1,6 @@
 path = window.location.pathname!=="/"?window.location.pathname:"/home/";
 
-document.title = "Viskyla - "+path[1].toUpperCase()+path.substring(2,path.length-1);
+document.title = "Stellibun - "+path[1].toUpperCase()+path.substring(2,path.length-1);
 
 document.characterSet = "UTF-8";
 
