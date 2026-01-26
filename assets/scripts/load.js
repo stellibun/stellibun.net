@@ -1,5 +1,3 @@
-const { createElement } = require("react");
-
 document.title = "viskyla.net";
 document.characterSet = "UTF-8";
 
