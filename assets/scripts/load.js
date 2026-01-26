@@ -1,4 +1,7 @@
-document.title = "viskyla.net";
+path = window.location.pathname;
+
+document.title = "Viskyla - "+path[1].toUpperCase()+path.substring(2,path.length-1);
+
 document.characterSet = "UTF-8";
 
 // Stylesheets
