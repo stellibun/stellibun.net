@@ -1,4 +1,4 @@
-path = window.location.pathname;
+path = window.location.pathname!=="/"?window.location.pathname:"/home/";
 
 document.title = "Viskyla - "+path[1].toUpperCase()+path.substring(2,path.length-1);
 
