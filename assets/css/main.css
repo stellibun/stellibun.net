@@ -10,10 +10,18 @@
 body{
     background-image:url("/assets/images/bg.png");
     background-size: 48px;
-    image-rendering:crisp-edges;
+    image-rendering:pixelated;
     font-family:"RetroByte";
+    font-size:25;
+    margin:0;
+}
+
+p{
+    margin:0;
 }
 
 main{
     margin:auto;
+    background:red;
+    max-width:1024px;
 }
