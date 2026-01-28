@@ -1,12 +1,17 @@
 @font-face {
-    font-family:"F";
-    src: url("/assets/fonts/");
+    font-family:"RetroByte";
+    src:url("/assets/css/RetroByte.ttf");
 }
+
+:root{
+    
+};
 
 body{
     background-image:url("/assets/images/bg.png");
     background-size: 48px;
     image-rendering:crisp-edges;
+    font-family:"RetroByte";
 };
 
 main{
