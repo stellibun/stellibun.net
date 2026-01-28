@@ -1,19 +1,19 @@
-@font-face {
+@font-face{
     font-family:"RetroByte";
     src:url("/assets/css/RetroByte.ttf");
 }
 
 :root{
-    --ignoreMe:"simplyJustSettingAVariableSoMyVSCodeStopsYellingAtMe";
-};
+    
+}
 
 body{
     background-image:url("/assets/images/bg.png");
     background-size: 48px;
     image-rendering:crisp-edges;
     font-family:"RetroByte";
-};
+}
 
 main{
     margin:auto;
-};
+}
