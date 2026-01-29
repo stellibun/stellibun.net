@@ -4,11 +4,11 @@
 }
 
 :root{
-    --titleColour:lightslategrey;
-    --contentColour:slategrey;
+    --titleColour:rgb(74, 75, 77);;
+    --contentColour:rgb(51, 51, 53);;
 
-    --titleTextColour:white;
-    --textColour:white;
+    --titleTextColour:rgb(255, 255, 244);
+    --textColour:rgb(255, 255, 244);
 }
 
 body{
@@ -42,14 +42,21 @@ header img{
 
 .title{
     background:var(--titleColour);
-    padding-left: 10px;
     color:var(--titleTextColour);
+    padding: 10px;
+    padding-left: 25px;
+    text-shadow: 2px 2px black;
+    letter-spacing: 2px;
+    border-top-left-radius:1em;
+    border-top-right-radius:1em;
 }
 
 .content{
     background:var(--contentColour);
-    color:var(--titleTextColour);
-    padding:15px;
+    color:var(--textColour);
+    padding:25px;
+    border-bottom-left-radius:1em;
+    border-bottom-right-radius:1em;
 }
 
 p{
