@@ -23,4 +23,4 @@ function navButtons(){
     createNav("Home","/");
 }
 
-document.getElementById("navigation").onload = navButtons();
+document.onload = function(){navButtons()};
