@@ -15,6 +15,8 @@
 
     --navButtonHover:rgb(220, 114, 78);
     --navButtonHoverText:var(--text);
+
+    --borderRad:30px;
 }
 
 body{
@@ -48,7 +50,7 @@ header a, header a img{
 }
 
 .box{
-    border-radius:1em;
+    border-radius:var(--borderRad);
     filter:drop-shadow(#0006 7px 7px 10px);
     margin-top:25px;
 }
@@ -62,16 +64,16 @@ header a, header a img{
     padding-left: 25px;
     text-shadow: 2px 2px black;
     letter-spacing: 2px;
-    border-top-left-radius:1em;
-    border-top-right-radius:1em;
+    border-top-left-radius:var(--borderRad);
+    border-top-right-radius:var(--borderRad);
 }
 
 .content{
     background:var(--content);
     color:var(--text);
     padding:25px;
-    border-bottom-left-radius:1em;
-    border-bottom-right-radius:1em;
+    border-bottom-left-radius:var(--borderRad);
+    border-bottom-right-radius:var(--borderRad);
 }
 
 p{
