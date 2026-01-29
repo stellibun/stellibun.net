@@ -9,6 +9,9 @@
 
     --titleTextColour:rgb(255, 255, 243);
     --textColour:rgb(255, 255, 243);
+
+    --navButton:rgb(255, 234, 179);
+    --navButtonTextColour:rgb(9, 9, 23);
 }
 
 body{
@@ -58,7 +61,7 @@ header a, header a img{
     border-top-right-radius:1em;
 }
 
-.content{
+.content, .navigation{
     background:var(--contentColour);
     color:var(--textColour);
     padding:25px;
@@ -78,7 +81,24 @@ main{
 }
 
 aside{
-    width:25%;
+    width:20%;
     margin-right:10px;
     margin-top:-25px;
+}
+
+.navigation{
+    padding-top:15px !important;
+}
+
+.navButton{
+    color:var(--navButtonTextColour);
+    background:var(--navButton);
+    padding:5px;
+    margin-top:10px;
+    margin-left:auto;
+    margin-right:auto;
+    width:auto;
+    display:block;
+    border-radius:10px; 
+    text-align:center;
 }
