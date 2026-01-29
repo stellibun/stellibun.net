@@ -25,10 +25,14 @@ p{
 }
 
 main{
-    margin:auto;
     background:red;
-    max-width:1024px;
     flex-grow:1;
+    width:auto;
+}
+
+aside{
+    background:blue;
+    width:30%
 }
 
 header{
