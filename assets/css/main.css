@@ -4,7 +4,6 @@
 }
 
 :root{
-    
 }
 
 body{
@@ -20,16 +19,22 @@ p{
     margin:0;
 }
 
+#container{
+    display:flex;
+    flex-direction:row;
+}
+
 main{
     margin:auto;
     background:red;
     max-width:1024px;
+    flex-grow:1;
 }
 
 header{
     margin-left:auto;
     margin-right:auto;
-    max-width: 1440px;
+    max-width:1440px;
     display:flex;
 }
 
