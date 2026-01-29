@@ -1,6 +1,6 @@
 @font-face{
-    font-family:"RetroByte";
-    src:url("/assets/css/RetroByte.ttf");
+    font-family:"Fredoka";
+    src:url("/assets/css/Fredoka-VariableFont.ttf");
 }
 
 :root{
@@ -15,7 +15,7 @@ body{
     background-image:url("/assets/images/bg.png");
     background-size: 48px;
     image-rendering:pixelated;
-    font-family:"RetroByte";
+    font-family:"Fredoka";
     font-size:25;
     margin:0;
 }
@@ -49,6 +49,7 @@ header img{
 .content{
     background:var(--contentColour);
     color:var(--titleTextColour);
+    padding:15px;
 }
 
 p{
