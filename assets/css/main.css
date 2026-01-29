@@ -16,6 +16,9 @@
     --navButtonHover:rgb(220, 114, 78);
     --navButtonHoverText:var(--text);
 
+    --navButtonOdd:rgb(255, 236, 210);
+    --navButtonOddHover:rgb(240, 171, 106);
+
     --borderRad:30px;
 }
 
@@ -120,4 +123,12 @@ a{
     transition:color 0.25s ease, background-color 0.25s ease;
     color:var(--navButtonHoverText);
     background:var(--navButtonHover);
+}
+
+#navigation > .navButton:nth-of-type(even){
+    background:var(--navButtonOdd);
+}
+
+#navigation > .navButton:nth-of-type(even):hover{
+    background:var(--navButtonOddHover);
 }
