@@ -22,7 +22,7 @@ body{
     background-size: 48px;
     image-rendering:pixelated;
     font-family:"Fredoka";
-    font-size:25;
+    font-size:15;
     margin:0;
 }
 
@@ -56,6 +56,7 @@ header a, header a img{
 .title{
     background:var(--title);
     color:var(--titleText);
+    font-size: 25;
     padding: 10px;
     padding-left: 25px;
     text-shadow: 2px 2px black;
