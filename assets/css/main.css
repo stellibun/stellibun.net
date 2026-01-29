@@ -94,7 +94,7 @@ aside{
 }
 
 .navButton{
-    color:var(--navButtonTextColour);
+    color:var(--navButtonText);
     background:var(--navButton);
     padding:2px;
     margin-top:10px;
