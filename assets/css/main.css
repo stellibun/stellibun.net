@@ -64,7 +64,7 @@ header a, header a img{
     border-top-right-radius:1em;
 }
 
-.content, .navigation{
+.content{
     background:var(--content);
     color:var(--text);
     padding:25px;
@@ -89,7 +89,7 @@ aside{
     margin-top:-25px;
 }
 
-.navigation{
+#navigation{
     padding-top:15px !important;
 }
 

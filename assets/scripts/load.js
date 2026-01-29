@@ -10,3 +10,12 @@ let silkCSS = document.createElement("link"); silkCSS.rel = "stylesheet"; silkCS
 
 document.head.appendChild(mainCSS);
 document.head.appendChild(silkCSS);
+
+function createNav(){
+    let e = document.createElement("a");
+    e.class = "navButton";
+    e.nodeValue = "Tesstt";
+    document.getElementById("navigation").appendChild(e);
+}
+
+createNav();
