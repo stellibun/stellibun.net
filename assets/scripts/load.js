@@ -19,4 +19,6 @@ function createNav(text,to){
     document.getElementById("navigation").appendChild(e);
 }
 
-createNav("Home","/");
+function navButtons(){
+    createNav("Home","/");
+}
