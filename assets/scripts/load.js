@@ -11,11 +11,12 @@ let silkCSS = document.createElement("link"); silkCSS.rel = "stylesheet"; silkCS
 document.head.appendChild(mainCSS);
 document.head.appendChild(silkCSS);
 
-function createNav(){
+function createNav(text,to){
     let e = document.createElement("a");
-    e.class = "navButton";
-    e.nodeValue = "Tesstt";
+    e.className = "navButton";
+    e.text = text;
+    e.href = to;
     document.getElementById("navigation").appendChild(e);
 }
 
-createNav();
+createNav("Home","/");
