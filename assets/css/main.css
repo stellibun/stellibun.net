@@ -4,7 +4,8 @@
 }
 
 :root{
-    
+    --titleColour:lightslategrey;
+    --contentColour:slategrey;
 }
 
 body{
@@ -37,12 +38,12 @@ header img{
 }
 
 .title{
-    background:grey;
-    padding-left: 5px;
+    background:var(--titleColour);
+    padding-left: 10px;
 }
 
 .content{
-    background:lightslategrey;
+    background:var(--contentColour);
 }
 
 p{
