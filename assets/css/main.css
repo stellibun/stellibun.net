@@ -4,14 +4,17 @@
 }
 
 :root{
-    --titleColour:rgb(66, 67, 79);;
-    --contentColour:rgb(45, 45, 53);;
+    --title:rgb(66, 67, 79);;
+    --content:rgb(45, 45, 53);;
 
-    --titleTextColour:rgb(255, 255, 243);
-    --textColour:rgb(255, 255, 243);
+    --titleText:rgb(255, 255, 243);
+    --text:rgb(255, 255, 243);
 
     --navButton:rgb(255, 234, 179);
-    --navButtonTextColour:rgb(9, 9, 23);
+    --navButtonText:rgb(31, 31, 53);
+
+    --navButtonHover:rgb(220, 114, 78);
+    --navButtonHoverText:var(--text);
 }
 
 body{
@@ -51,8 +54,8 @@ header a, header a img{
 }
 
 .title{
-    background:var(--titleColour);
-    color:var(--titleTextColour);
+    background:var(--title);
+    color:var(--titleText);
     padding: 10px;
     padding-left: 25px;
     text-shadow: 2px 2px black;
@@ -62,8 +65,8 @@ header a, header a img{
 }
 
 .content, .navigation{
-    background:var(--contentColour);
-    color:var(--textColour);
+    background:var(--content);
+    color:var(--text);
     padding:25px;
     border-bottom-left-radius:1em;
     border-bottom-right-radius:1em;
@@ -93,7 +96,7 @@ aside{
 .navButton{
     color:var(--navButtonTextColour);
     background:var(--navButton);
-    padding:5px;
+    padding:2px;
     margin-top:10px;
     margin-left:auto;
     margin-right:auto;
@@ -101,4 +104,11 @@ aside{
     display:block;
     border-radius:10px; 
     text-align:center;
+    transition:none;
+}
+
+.navButton:hover{
+    transition:color 0.25s ease, background-color 0.25s ease;
+    color:var(--navButtonHoverText);
+    background:var(--navButtonHover);
 }
