@@ -7,8 +7,8 @@
     --titleColour:rgb(66, 67, 79);;
     --contentColour:rgb(45, 45, 53);;
 
-    --titleTextColour:rgb(255, 255, 237);
-    --textColour:rgb(255, 255, 237);
+    --titleTextColour:rgb(255, 255, 243);
+    --textColour:rgb(255, 255, 243);
 }
 
 body{
@@ -44,6 +44,7 @@ header a, header a img{
 .box{
     border-radius:1em;
     filter:drop-shadow(#0006 7px 7px 10px);
+    margin-top:25px;
 }
 
 .title{
@@ -73,6 +74,7 @@ main{
     flex-grow:1;
     width:auto;
     margin-left:5px;
+    margin-top:-25px;
 }
 
 aside{
