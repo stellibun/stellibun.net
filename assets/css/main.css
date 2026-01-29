@@ -89,6 +89,10 @@ aside{
     margin-top:-25px;
 }
 
+a{
+    text-decoration:none;
+}
+
 #navigation{
     padding-top:15px !important;
 }

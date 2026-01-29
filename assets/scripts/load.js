@@ -22,5 +22,3 @@ function createNav(text,to){
 function navButtons(){
     createNav("Home","/");
 }
-
-document.onload = function(){navButtons()};
