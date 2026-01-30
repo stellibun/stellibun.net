@@ -20,6 +20,9 @@
     --navButtonOdd:rgb(255, 236, 210);
     --navButtonOddHover:rgb(240, 171, 106);
 
+    --link:var(--navButton);
+    --linkHover:var(--text);
+
     --borderRad:30px;
 }
 
@@ -102,7 +105,12 @@ small{
 }
 
 a{
+    color:var(--link);
     text-decoration:none;
+}
+
+a:hover{
+    color:var(--linkHover);
 }
 
 .grid{
