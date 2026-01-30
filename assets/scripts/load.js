@@ -22,3 +22,14 @@ function createNav(text,to){
 function navButtons(){
     createNav("Home","/");
 }
+
+fetch("https://status.cafe/users/stellibun/status.json")
+  .then( r => r.json() )
+  .then( r => {
+    if (!r.content.length) {
+      document.getElementById("statuscafe-content").innerHTML = "No status yet.";
+      return;
+    }
+    document.getElementById("statuscafe-username").innerHTML = r.author + ' ('+r.face+'), ' + ' ' + r.timeAgo;
+    document.getElementById("statuscafe-content").innerHTML = r.content;
+  })
