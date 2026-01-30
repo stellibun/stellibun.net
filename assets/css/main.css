@@ -20,6 +20,8 @@
     --navButtonOddHover:rgb(240, 171, 106);
 
     --borderRad:30px;
+
+    grid-gap: 30px;
 }
 
 body{
@@ -117,7 +119,6 @@ a{
     border-radius:10px; 
     text-align:center;
     transition:none;
-    grid-gap: 30px;
 }
 
 .navButton:hover{
@@ -126,11 +127,6 @@ a{
     background:var(--navButtonHover);
 }
 
-#statuscafe {
-    padding: .5em;
-    background-color: azure;
-    border: 1px solid midnightblue;
-}
 #statuscafe-username {
     margin-bottom: .5em;
 }
