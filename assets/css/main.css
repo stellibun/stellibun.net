@@ -128,10 +128,9 @@ a{
 }
 
 #statuscafe-username {
-    margin-bottom: .5em;
+    margin-bottom: 2px;
 }
 #statuscafe-content {
-    margin: 0 1em 0.5em 1em;
 }
 
 #navigation > .navButton:nth-of-type(even){
