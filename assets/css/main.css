@@ -27,7 +27,7 @@ body{
     background-size: 48px;
     image-rendering:pixelated;
     font-family:"Fredoka";
-    font-size:18;
+    font-size:16;
     margin:0;
 }
 
@@ -130,7 +130,9 @@ a{
 }
 
 #statuscafe-username {
+    color:var(--text);
     margin-bottom: 2px;
+    margin-top:-10px;
 }
 #statuscafe-content {
 }
