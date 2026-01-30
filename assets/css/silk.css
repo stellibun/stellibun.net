@@ -562,6 +562,12 @@
   background-position: -32px -144px;
 }
 
+.famfamfam-silk.📚 {
+  width: 16px;
+  height: 16px;
+  background-position: -32px -144px;
+}
+
 .famfamfam-silk.book_add {
   width: 16px;
   height: 16px;
@@ -617,6 +623,12 @@
 }
 
 .famfamfam-silk.book_open {
+  width: 16px;
+  height: 16px;
+  background-position: -160px -32px;
+}
+
+.famfamfam-silk.📖 {
   width: 16px;
   height: 16px;
   background-position: -160px -32px;
@@ -1738,6 +1750,12 @@
   background-position: -256px -256px;
 }
 
+.famfamfam-silk.🎮 {
+  width: 16px;
+  height: 16px;
+  background-position: -256px -256px;
+}
+
 .famfamfam-silk.controller_add {
   width: 16px;
   height: 16px;
@@ -1799,6 +1817,12 @@
 }
 
 .famfamfam-silk.cup {
+  width: 16px;
+  height: 16px;
+  background-position: -272px -160px;
+}
+
+.famfamfam-silk.☕️ {
   width: 16px;
   height: 16px;
   background-position: -272px -160px;
@@ -2026,6 +2050,12 @@
   background-position: -288px -192px;
 }
 
+.famfamfam-silk.💾 {
+  width: 16px;
+  height: 16px;
+  background-position: -288px -192px;
+}
+
 .famfamfam-silk.disk_multiple {
   width: 16px;
   height: 16px;
@@ -2057,6 +2087,12 @@
 }
 
 .famfamfam-silk.drink {
+  width: 16px;
+  height: 16px;
+  background-position: 0px -288px;
+}
+
+.famfamfam-silk.🍸 {
   width: 16px;
   height: 16px;
   background-position: 0px -288px;
@@ -2290,7 +2326,19 @@
   background-position: 0px -304px;
 }
 
+.famfamfam-silk.🙃 {
+  width: 16px;
+  height: 16px;
+  background-position: 0px -304px;
+}
+
 .famfamfam-silk.emoticon_happy {
+  width: 16px;
+  height: 16px;
+  background-position: -16px -304px;
+}
+
+.famfamfam-silk.🤩 {
   width: 16px;
   height: 16px;
   background-position: -16px -304px;
@@ -2302,7 +2350,25 @@
   background-position: -32px -304px;
 }
 
+.famfamfam-silk.🙂 {
+  width: 16px;
+  height: 16px;
+  background-position: -32px -304px;
+}
+
 .famfamfam-silk.emoticon_surprised {
+  width: 16px;
+  height: 16px;
+  background-position: -48px -304px;
+}
+
+.famfamfam-silk.😱 {
+  width: 16px;
+  height: 16px;
+  background-position: -48px -304px;
+}
+
+.famfamfam-silk.😯 {
   width: 16px;
   height: 16px;
   background-position: -48px -304px;
@@ -2314,13 +2380,38 @@
   background-position: -64px -304px;
 }
 
+.famfamfam-silk.😛{
+  width: 16px;
+  height: 16px;
+  background-position: -64px -304px;
+}
+
+
 .famfamfam-silk.emoticon_unhappy {
   width: 16px;
   height: 16px;
   background-position: -80px -304px;
 }
 
+.famfamfam-silk.😭 {
+  width: 16px;
+  height: 16px;
+  background-position: -80px -304px;
+}
+
+.famfamfam-silk.🥹 {
+  width: 16px;
+  height: 16px;
+  background-position: -80px -304px;
+}
+
 .famfamfam-silk.emoticon_waii {
+  width: 16px;
+  height: 16px;
+  background-position: -96px -304px;
+}
+
+.famfamfam-silk.🐱 {
   width: 16px;
   height: 16px;
   background-position: -96px -304px;
@@ -2783,6 +2874,12 @@
 }
 
 .famfamfam-silk.heart {
+  width: 16px;
+  height: 16px;
+  background-position: -16px -336px;
+}
+
+.famfamfam-silk.❤️ {
   width: 16px;
   height: 16px;
   background-position: -16px -336px;
@@ -3538,6 +3635,12 @@
   background-position: -384px -176px;
 }
 
+.famfamfam-silk.🎶 {
+  width: 16px;
+  height: 16px;
+  background-position: -384px -176px;
+}
+
 .famfamfam-silk.new {
   width: 16px;
   height: 16px;
@@ -4144,6 +4247,12 @@
   background-position: -416px -192px;
 }
 
+.famfamfam-silk.🎨 {
+  width: 16px;
+  height: 16px;
+  background-position: -416px -192px;
+}
+
 .famfamfam-silk.paste_plain {
   width: 16px;
   height: 16px;
@@ -4157,6 +4266,12 @@
 }
 
 .famfamfam-silk.pencil {
+  width: 16px;
+  height: 16px;
+  background-position: -416px -240px;
+}
+
+.famfamfam-silk.✏️ {
   width: 16px;
   height: 16px;
   background-position: -416px -240px;
@@ -5374,6 +5489,12 @@
   background-position: -368px -464px;
 }
 
+.famfamfam-silk.📺 {
+  width: 16px;
+  height: 16px;
+  background-position: -368px -464px;
+}
+
 .famfamfam-silk.television_add {
   width: 16px;
   height: 16px;
@@ -5651,6 +5772,12 @@
 }
 
 .famfamfam-silk.tick {
+  width: 16px;
+  height: 16px;
+  background-position: -160px -480px;
+}
+
+.famfamfam-silk.✅ {
   width: 16px;
   height: 16px;
   background-position: -160px -480px;
