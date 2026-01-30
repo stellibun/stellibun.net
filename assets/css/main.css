@@ -125,6 +125,18 @@ a{
     background:var(--navButtonHover);
 }
 
+#statuscafe {
+    padding: .5em;
+    background-color: azure;
+    border: 1px solid midnightblue;
+}
+#statuscafe-username {
+    margin-bottom: .5em;
+}
+#statuscafe-content {
+    margin: 0 1em 0.5em 1em;
+}
+
 #navigation > .navButton:nth-of-type(even){
     background:var(--navButtonOdd);
 }
