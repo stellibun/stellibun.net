@@ -20,8 +20,6 @@
     --navButtonOddHover:rgb(240, 171, 106);
 
     --borderRad:30px;
-
-    grid-gap: 30px;
 }
 
 body{
@@ -100,6 +98,10 @@ aside{
 
 a{
     text-decoration:none;
+}
+
+#grid{
+    grid-gap: 30px;
 }
 
 #navigation{
