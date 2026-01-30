@@ -117,6 +117,7 @@ a{
     border-radius:10px; 
     text-align:center;
     transition:none;
+    grid-gap: 30px;
 }
 
 .navButton:hover{
