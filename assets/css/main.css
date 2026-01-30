@@ -100,7 +100,7 @@ a{
     text-decoration:none;
 }
 
-#grid{
+.grid{
     grid-gap: 30px;
 }
 
