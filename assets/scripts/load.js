@@ -32,4 +32,4 @@ fetch("https://status.cafe/users/stellibun/status.json")
     }
     document.getElementById("statuscafe-username").innerHTML = r.author + ' ('+r.face+'), ' + ' ' + r.timeAgo;
     document.getElementById("statuscafe-content").innerHTML = r.content;
-  })
+})
