@@ -1,4 +1,4 @@
-path = window.location.pathname!=="/"?window.location.pathname:"/home/";
+path = window.location.pathname.split("/"); path = path[path.length-2]; path = path != ""?path:"home";
 
 document.title = "Stellibun - "+path[1].toUpperCase()+path.substring(2,path.length-1);
 
