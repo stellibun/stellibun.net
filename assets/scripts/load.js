@@ -1,6 +1,6 @@
 path = window.location.pathname.split("/"); path = path[path.length-2]; path = path != ""?path:"home";
 
-document.title = "Stellibun - "+path[0].toUpperCase()+path.substring(1,path.length-1);
+document.title = "Stellibun - "+path[0].toUpperCase()+path.substring(1,path.length);
 
 document.characterSet = "UTF-8";
 
