@@ -21,6 +21,10 @@ function createNav(text,to){
 
 function navButtons(){
     createNav("Home","/");
+    createNav("Games","/games");
+    createNav("Art","/art");
+    createNav("Blog","/blog");
+    createNav("Links","/links");
 }
 
 fetch("https://status.cafe/users/stellibun/status.json")
