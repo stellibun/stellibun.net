@@ -33,7 +33,7 @@
     --b4:rgb(255, 95, 210);
     --b5:rgb(166, 83, 255);
     --bH:#ffcdd1;
-    --bH2:#ba6b7855;
+    --bH2:#ba6b8c55;
 }
 
 body{
@@ -191,3 +191,17 @@ a:hover{
 #statuscafe-username {
     color:var(--text);
 }
+
+.gameTile{
+    outline-style:dashed;
+    outline-color:var(--mutedText);
+    outline-offset:-5px;
+    outline-width:2px;
+    background: var(--title);
+    padding: 20px;
+    border-radius: 18px;
+}
+
+.gameTile .title {
+    padding: 0;
+};
