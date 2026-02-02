@@ -99,7 +99,7 @@ p{
 
 main{
     flex-grow:1;
-    width:0;
+    width:min-content;
     margin-left:10px;
     margin-top:-25px;
 }
