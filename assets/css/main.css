@@ -105,7 +105,7 @@ main{
 }
 
 aside{
-    width:18%;
+    width:15%;
     margin-right:10px;
     margin-top:-25px;
 }
@@ -128,7 +128,7 @@ a:hover{
 }
 
 #navigation{
-    padding-top:5px !important;
+    padding: 5px 15px 15px 15px !important
 }
 
 .navButton{
