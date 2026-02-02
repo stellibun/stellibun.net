@@ -15,7 +15,7 @@
     --navButtonText:rgb(31, 31, 53);
 
     --navButtonHover:rgb(220, 114, 78);
-    --navButtonHoverText:var(--text);
+    --navButtonHoverText:#79484c;
 
     --navButtonOdd:rgb(255, 236, 210);
     --navButtonOddHover:rgb(240, 171, 106);
@@ -24,6 +24,16 @@
     --linkHover:var(--text);
 
     --borderRad:25px;
+    
+    --textShadow:var(--content);
+    
+    --b1:rgb(255, 192, 133);
+    --b2:rgb(255, 152, 117);
+    --b3:rgb(255, 110, 134);
+    --b4:rgb(255, 95, 210);
+    --b5:rgb(166, 83, 255);
+    --bH:#ffcdd1;
+    --bH2:#ba6b7855;
 }
 
 body{
@@ -69,7 +79,7 @@ header a, header a img{
     font-weight:bold;
     padding: 10px;
     padding-left: 25px;
-    text-shadow: 2px 2px black;
+    text-shadow: 2px 2px var(--textShadow);
     letter-spacing: 2px;
     border-top-left-radius:var(--borderRad);
     border-top-right-radius:var(--borderRad);
@@ -135,22 +145,49 @@ a:hover{
     text-align:center;
     transition:none;
     text-decoration: none;
+    text-shadow: 0px 0px rgba(0,0,0,0);
+    outline-style:none;
+    outline-offset:-5px;
+    outline-width:2px;
+    outline-color:transparent;
 }
 
-.navButton:hover{
-    transition:color 0.25s ease, background-color 0.25s ease;
-    color:var(--navButtonHoverText);
-    background:var(--navButtonHover);
-}
-
-#statuscafe-username {
-    color:var(--text);
-}
-
-#navigation > .navButton:nth-of-type(even){
+/*#navigation > .navButton:nth-of-type(even){
     background:var(--navButtonOdd);
 }
 
 #navigation > .navButton:nth-of-type(even):hover{
     background:var(--navButtonOddHover);
+}*/
+
+.navButton:nth-child(1){
+    background:var(--b1);
+}
+
+.navButton:nth-child(2){
+    background:var(--b2);
+}
+
+.navButton:nth-child(3){
+    background:var(--b3);
+}
+
+.navButton:nth-child(4){
+    background:var(--b4);
+}
+
+.navButton:nth-child(5){
+    background:var(--b5);
+}
+
+.navButton:hover{
+    transition:color 0.25s ease, background-color 0.25s ease, outline-color 0.25s ease;
+    color:var(--navButtonHoverText);
+    outline-style:dashed;
+    outline-color:var(--bH2);
+    background:var(--bH);
+}
+
+#statuscafe-username {
+    color:var(--text);
 }
