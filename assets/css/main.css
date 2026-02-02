@@ -4,21 +4,21 @@
 }
 
 :root{
-    --title:rgb(66, 67, 79);;
-    --content:rgb(45, 45, 53);;
+    --title:#42434f;
+    --content:#2d2d35;
 
-    --titleText:rgb(255, 255, 243);
-    --text:rgb(255, 255, 243);
-    --mutedText:rgb(129, 141, 149);
+    --titleText:#fffff3;
+    --text:#fffff3;
+    --mutedText:#818d95;
 
-    --navButton:rgb(255, 234, 179);
-    --navButtonText:rgb(31, 31, 53);
+    --navButton:#ffeab3;
+    --navButtonText:#1f1f35;
 
-    --navButtonHover:rgb(220, 114, 78);
+    --navButtonHover:#dc724e;
     --navButtonHoverText:#79484c;
 
-    --navButtonOdd:rgb(255, 236, 210);
-    --navButtonOddHover:rgb(240, 171, 106);
+    --navButtonOdd:#ffecd2;
+    --navButtonOddHover:#f0ab6a;
 
     --link:var(--navButton);
     --linkHover:var(--text);
@@ -27,11 +27,11 @@
     
     --textShadow:var(--content);
     
-    --b1:rgb(255, 192, 133);
-    --b2:rgb(255, 152, 117);
-    --b3:rgb(255, 110, 134);
-    --b4:rgb(255, 95, 210);
-    --b5:rgb(166, 83, 255);
+    --b1:#ffc085;
+    --b2:#ff9875;
+    --b3:#ff6e86;
+    --b4:#ff5fd2;
+    --b5:#a653ff;
     --bH:#ffcdd1;
     --bH2:#ba6b8c55;
 }
