@@ -34,6 +34,6 @@ fetch("https://status.cafe/users/stellibun/status.json")
       document.getElementById("statuscafe-content").innerHTML = "No status yet.";
       return;
     }
-    document.getElementById("statuscafe-username").innerHTML = "<span class=\"famfamfam-silk "+r.face+"\" style=\"top: 2px;position: relative;\"></span> / Stellibun <small>"+r.timeAgo+"</small>";
+    document.getElementById("statuscafe-username").innerHTML = "<span class=\"statuses "+r.face+"\" style=\"top: 2px;position: relative;\"></span> / Stellibun <small>"+r.timeAgo+"</small>";
     document.getElementById("statuscafe-content").innerHTML = r.content;
 })
