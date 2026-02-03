@@ -204,4 +204,30 @@ a:hover{
 
 .gameTile .title {
     padding: 0;
-};
+    background: transparent;
+    font-size: 30;
+}
+
+.gameInfo{
+    display:inline;
+    position:fixed;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+
+.gameMeta{
+    margin-left:12px;
+}
+
+.gameMeta time{
+    font-size:15px;
+    font-weight:lighter;
+}
+
+.gameIcon{
+    display: inline;
+    width: 150px;
+    border-radius: 18px;
+    image-rendering: auto;
+    margin-bottom: 15px;
+}
