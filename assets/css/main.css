@@ -235,4 +235,8 @@ a:hover{
     border-radius: 18px;
     image-rendering: auto;
     margin-bottom: 15px;
+    outline-style: dashed;
+    outline-offset: -5px;
+    outline-width: 2px;
+    outline-color: #fff6;
 }
