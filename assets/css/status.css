@@ -1,615 +1,616 @@
 .statuses{
   background:url("statuses.png") no-repeat;
+  background-size:256px 128px;
   display:inline-block;
 }
 
 .statuses.☑️ {
     width: 16px;
     height: 16px;
-    background: -0px -0px;
+    background-position: -0px -0px;
 }
 .statuses.💻 {
     width: 16px;
     height: 16px;
-    background: -16px -0px;
+    background-position: -16px -0px;
 }
 .statuses.📎 {
     width: 16px;
     height: 16px;
-    background: -32px -0px;
+    background-position: -32px -0px;
 }
 .statuses.🏅 {
     width: 16px;
     height: 16px;
-    background: -48px -0px;
+    background-position: -48px -0px;
 }
 .statuses.🛒 {
     width: 16px;
     height: 16px;
-    background: -64px -0px;
+    background-position: -64px -0px;
 }
 .statuses.🗑 {
     width: 16px;
     height: 16px;
-    background: -80px -0px;
+    background-position: -80px -0px;
 }
 .statuses.📘 {
     width: 16px;
     height: 16px;
-    background: -96px -0px;
+    background-position: -96px -0px;
 }
 .statuses.📖 {
     width: 16px;
     height: 16px;
-    background: -112px -0px;
+    background-position: -112px -0px;
 }
 .statuses.📦 {
     width: 16px;
     height: 16px;
-    background: -128px -0px;
+    background-position: -128px -0px;
 }
 .statuses.🧱 {
     width: 16px;
     height: 16px;
-    background: -144px -0px;
+    background-position: -144px -0px;
 }
 .statuses.🪲 {
     width: 16px;
     height: 16px;
-    background: -160px -0px;
+    background-position: -160px -0px;
 }
 .statuses.🏢 {
     width: 16px;
     height: 16px;
-    background: -176px -0px;
+    background-position: -176px -0px;
 }
 .statuses.🎂 {
     width: 16px;
     height: 16px;
-    background: -192px -0px;
+    background-position: -192px -0px;
 }
 .statuses.🗓️ {
     width: 16px;
     height: 16px;
-    background: -208px -0px;
+    background-position: -208px -0px;
 }
 .statuses.📷 {
     width: 16px;
     height: 16px;
-    background: -224px -0px;
+    background-position: -224px -0px;
 }
 .statuses.🚗 {
     width: 16px;
     height: 16px;
-    background: -240px -0px;
+    background-position: -240px -0px;
 }
 .statuses.💿 {
     width: 16px;
     height: 16px;
-    background: -0px -16px;
+    background-position: -0px -16px;
 }
 .statuses.⏰ {
     width: 16px;
     height: 16px;
-    background: -16px -16px;
+    background-position: -16px -16px;
 }
 .statuses.💰 {
     width: 16px;
     height: 16px;
-    background: -32px -16px;
+    background-position: -32px -16px;
 }
 .statuses.🗨️ {
     width: 16px;
     height: 16px;
-    background: -48px -16px;
+    background-position: -48px -16px;
 }
 .statuses.🖥️ {
     width: 16px;
     height: 16px;
-    background: -64px -16px;
+    background-position: -64px -16px;
 }
 .statuses.🎮 {
     width: 16px;
     height: 16px;
-    background: -80px -16px;
+    background-position: -80px -16px;
 }
 .statuses.☕️ {
     width: 16px;
     height: 16px;
-    background: -96px -16px;
+    background-position: -96px -16px;
 }
 .statuses.✂️ {
     width: 16px;
     height: 16px;
-    background: -112px -16px;
+    background-position: -112px -16px;
 }
 .statuses.📆 {
     width: 16px;
     height: 16px;
-    background: -128px -16px;
+    background-position: -128px -16px;
 }
 .statuses.⛔️ {
     width: 16px;
     height: 16px;
-    background: -144px -16px;
+    background-position: -144px -16px;
 }
 .statuses.❌ {
     width: 16px;
     height: 16px;
-    background: -64px -96px;
+    background-position: -64px -96px;
 }
 .statuses.✉️ {
     width: 16px;
     height: 16px;
-    background: -160px -16px;
+    background-position: -160px -16px;
 }
 .statuses.😈 {
     width: 16px;
     height: 16px;
-    background: -176px -16px;
+    background-position: -176px -16px;
 }
 .statuses.😀 {
     width: 16px;
     height: 16px;
-    background: -192px -16px;
+    background-position: -192px -16px;
 }
 .statuses.😁 {
     width: 16px;
     height: 16px;
-    background: -208px -16px;
+    background-position: -208px -16px;
 }
 .statuses.🙂 {
     width: 16px;
     height: 16px;
-    background: -224px -16px;
+    background-position: -224px -16px;
 }
 .statuses.😯 {
     width: 16px;
     height: 16px;
-    background: -240px -16px;
+    background-position: -240px -16px;
 }
 .statuses.😋 {
     width: 16px;
     height: 16px;
-    background: -0px -32px;
+    background-position: -0px -32px;
 }
 .statuses.🙁 {
     width: 16px;
     height: 16px;
-    background: -16px -32px;
+    background-position: -16px -32px;
 }
 .statuses.🤪 {
     width: 16px;
     height: 16px;
-    background: -32px -32px;
+    background-position: -32px -32px;
 }
 .statuses.😉 {
     width: 16px;
     height: 16px;
-    background: -48px -32px;
+    background-position: -48px -32px;
 }
 .statuses.⚠️ {
     width: 16px;
     height: 16px;
-    background: -64px -32px;
+    background-position: -64px -32px;
 }
 .statuses.👁 {
     width: 16px;
     height: 16px;
-    background: -80px -32px;
+    background-position: -80px -32px;
 }
 .statuses.🛜 {
     width: 16px;
     height: 16px;
-    background: -96px -32px;
+    background-position: -96px -32px;
 }
 .statuses.🎞️ {
     width: 16px;
     height: 16px;
-    background: -112px -32px;
+    background-position: -112px -32px;
 }
 .statuses.🔎 {
     width: 16px;
     height: 16px;
-    background: -128px -32px;
+    background-position: -128px -32px;
 }
 .statuses.📁 {
     width: 16px;
     height: 16px;
-    background: -144px -32px;
+    background-position: -144px -32px;
 }
 .statuses.👥 {
     width: 16px;
     height: 16px;
-    background: -160px -32px;
+    background-position: -160px -32px;
 }
 .statuses.❤️ {
     width: 16px;
     height: 16px;
-    background: -176px -32px;
+    background-position: -176px -32px;
 }
 .statuses.⏳ {
     width: 16px;
     height: 16px;
-    background: -192px -32px;
+    background-position: -192px -32px;
 }
 .statuses.🏠 {
     width: 16px;
     height: 16px;
-    background: -208px -32px;
+    background-position: -208px -32px;
 }
 .statuses.ℹ️ {
     width: 16px;
     height: 16px;
-    background: -224px -32px;
+    background-position: -224px -32px;
 }
 .statuses.📳 {
     width: 16px;
     height: 16px;
-    background: -240px -32px;
+    background-position: -240px -32px;
 }
 .statuses.📑 {
     width: 16px;
     height: 16px;
-    background: -0px -48px;
+    background-position: -0px -48px;
 }
 .statuses.💡 {
     width: 16px;
     height: 16px;
-    background: -16px -48px;
+    background-position: -16px -48px;
 }
 .statuses.🕯 {
     width: 16px;
     height: 16px;
-    background: -32px -48px;
+    background-position: -32px -48px;
 }
 .statuses.⚡️ {
     width: 16px;
     height: 16px;
-    background: -48px -48px;
+    background-position: -48px -48px;
 }
 .statuses.🔗 {
     width: 16px;
     height: 16px;
-    background: -64px -48px;
+    background-position: -64px -48px;
 }
 .statuses.🔒 {
     width: 16px;
     height: 16px;
-    background: -80px -48px;
+    background-position: -80px -48px;
 }
 .statuses.🔓 {
     width: 16px;
     height: 16px;
-    background: -96px -48px;
+    background-position: -96px -48px;
 }
 .statuses.💸 {
     width: 16px;
     height: 16px;
-    background: -112px -48px;
+    background-position: -112px -48px;
 }
 .statuses.💵 {
     width: 16px;
     height: 16px;
-    background: -128px -48px;
+    background-position: -128px -48px;
 }
 .statuses.💶 {
     width: 16px;
     height: 16px;
-    background: -144px -48px;
+    background-position: -144px -48px;
 }
 .statuses.🎵 {
     width: 16px;
     height: 16px;
-    background: -160px -48px;
+    background-position: -160px -48px;
 }
 .statuses.📰 {
     width: 16px;
     height: 16px;
-    background: -176px -48px;
+    background-position: -176px -48px;
 }
 .statuses.🖌️ {
     width: 16px;
     height: 16px;
-    background: -192px -48px;
+    background-position: -192px -48px;
 }
 .statuses.🪣 {
     width: 16px;
     height: 16px;
-    background: -208px -48px;
+    background-position: -208px -48px;
 }
 .statuses.🎨 {
     width: 16px;
     height: 16px;
-    background: -224px -48px;
+    background-position: -224px -48px;
 }
 .statuses.✏️ {
     width: 16px;
     height: 16px;
-    background: -240px -48px;
+    background-position: -240px -48px;
 }
 .statuses.📱 {
     width: 16px;
     height: 16px;
-    background: -0px -64px;
+    background-position: -0px -64px;
 }
 .statuses.🖼️ {
     width: 16px;
     height: 16px;
-    background: -16px -64px;
+    background-position: -16px -64px;
 }
 .statuses.🌌 {
     width: 16px;
     height: 16px;
-    background: -32px -64px;
+    background-position: -32px -64px;
 }
 .statuses.🧩 {
     width: 16px;
     height: 16px;
-    background: -48px -64px;
+    background-position: -48px -64px;
 }
 .statuses.🌈 {
     width: 16px;
     height: 16px;
-    background: -64px -64px;
+    background-position: -64px -64px;
 }
 .statuses.📒 {
     width: 16px;
     height: 16px;
-    background: -80px -64px;
+    background-position: -80px -64px;
 }
 .statuses.🏵️ {
     width: 16px;
     height: 16px;
-    background: -96px -64px;
+    background-position: -96px -64px;
 }
 .statuses.📜 {
     width: 16px;
     height: 16px;
-    background: -112px -64px;
+    background-position: -112px -64px;
 }
 .statuses.🛡️ {
     width: 16px;
     height: 16px;
-    background: -128px -64px;
+    background-position: -128px -64px;
 }
 .statuses.🔊 {
     width: 16px;
     height: 16px;
-    background: -144px -64px;
+    background-position: -144px -64px;
 }
 .statuses.🎱 {
     width: 16px;
     height: 16px;
-    background: -160px -64px;
+    background-position: -160px -64px;
 }
 .statuses.🏀 {
     width: 16px;
     height: 16px;
-    background: -176px -64px;
+    background-position: -176px -64px;
 }
 .statuses.🏈 {
     width: 16px;
     height: 16px;
-    background: -192px -64px;
+    background-position: -192px -64px;
 }
 .statuses.⛳️ {
     width: 16px;
     height: 16px;
-    background: -208px -64px;
+    background-position: -208px -64px;
 }
 .statuses.🎾 {
     width: 16px;
     height: 16px;
-    background: -224px -64px;
+    background-position: -224px -64px;
 }
 .statuses.🏸 {
     width: 16px;
     height: 16px;
-    background: -240px -64px;
+    background-position: -240px -64px;
 }
 .statuses.⚽️ {
     width: 16px;
     height: 16px;
-    background: -0px -80px;
+    background-position: -0px -80px;
 }
 .statuses.🥎 {
     width: 16px;
     height: 16px;
-    background: -16px -80px;
+    background-position: -16px -80px;
 }
 .statuses.⭐️ {
     width: 16px;
     height: 16px;
-    background: -32px -80px;
+    background-position: -32px -80px;
 }
 .statuses.🕐 {
     width: 16px;
     height: 16px;
-    background: -48px -80px;
+    background-position: -48px -80px;
 }
 .statuses.🟡 {
     width: 16px;
     height: 16px;
-    background: -48px -80px;
+    background-position: -48px -80px;
 }
 .statuses.🔴 {
     width: 16px;
     height: 16px;
-    background: -64px -80px;
+    background-position: -64px -80px;
 }
 .statuses.🔘 {
     width: 16px;
     height: 16px;
-    background: -80px -80px;
+    background-position: -80px -80px;
 }
 .statuses.🟢 {
     width: 16px;
     height: 16px;
-    background: -96px -80px;
+    background-position: -96px -80px;
 }
 .statuses.☎️ {
     width: 16px;
     height: 16px;
-    background: -112px -80px;
+    background-position: -112px -80px;
 }
 .statuses.📺 {
     width: 16px;
     height: 16px;
-    background: -128px -80px;
+    background-position: -128px -80px;
 }
 .statuses.🪄 {
     width: 16px;
     height: 16px;
-    background: -144px -80px;
+    background-position: -144px -80px;
 }
 .statuses.☁️ {
     width: 16px;
     height: 16px;
-    background: -160px -80px;
+    background-position: -160px -80px;
 }
 .statuses.⛅️ {
     width: 16px;
     height: 16px;
-    background: -176px -80px;
+    background-position: -176px -80px;
 }
 .statuses.⛈️ {
     width: 16px;
     height: 16px;
-    background: -192px -80px;
+    background-position: -192px -80px;
 }
 .statuses.🌧️ {
     width: 16px;
     height: 16px;
-    background: -208px -80px;
+    background-position: -208px -80px;
 }
 .statuses.🌨️ {
     width: 16px;
     height: 16px;
-    background: -224px -80px;
+    background-position: -224px -80px;
 }
 .statuses.☀️ {
     width: 16px;
     height: 16px;
-    background: -240px -80px;
+    background-position: -240px -80px;
 }
 .statuses.🌎 {
     width: 16px;
     height: 16px;
-    background: -0px -96px;
+    background-position: -0px -96px;
 }
 .statuses.🔧 {
     width: 16px;
     height: 16px;
-    background: -16px -96px;
+    background-position: -16px -96px;
 }
 .statuses.🔍 {
     width: 16px;
     height: 16px;
-    background: -32px -96px;
+    background-position: -32px -96px;
 }
 .statuses.🔖 {
     width: 16px;
     height: 16px;
-    background: -48px -96px;
+    background-position: -48px -96px;
 }
 .statuses.💾 {
     width: 16px;
     height: 16px;
-    background: -80px -96px;
+    background-position: -80px -96px;
 }
 .statuses.🍷 {
     width: 16px;
     height: 16px;
-    background: -96px -96px;
+    background-position: -96px -96px;
 }
 .statuses.💔 {
     width: 16px;
     height: 16px;
-    background: -112px -96px;
+    background-position: -112px -96px;
 }
 .statuses.📝 {
     width: 16px;
     height: 16px;
-    background: -112px -96px;
+    background-position: -112px -96px;
 }
 .statuses.📝 {
     width: 16px;
     height: 16px;
-    background: -128px -96px;
+    background-position: -128px -96px;
 }
 .statuses.💫 {
     width: 16px;
     height: 16px;
-    background: -144px -96px;
+    background-position: -144px -96px;
 }
 .statuses.✨ {
     width: 16px;
     height: 16px;
-    background: -160px -96px;
+    background-position: -160px -96px;
 }
 .statuses.💥 {
     width: 16px;
     height: 16px;
-    background: -176px -96px;
+    background-position: -176px -96px;
 }
 .statuses.🕓 {
     width: 16px;
     height: 16px;
-    background: -192px -96px;
+    background-position: -192px -96px;
 }
 .statuses.🌩️ {
     width: 16px;
     height: 16px;
-    background: -208px -96px;
+    background-position: -208px -96px;
 }
 .statuses.🌦️ {
     width: 16px;
     height: 16px;
-    background: -224px -96px;
+    background-position: -224px -96px;
 }
 .statuses.🌘 {
     width: 16px;
     height: 16px;
-    background: -240px -96px;
+    background-position: -240px -96px;
 }
 .statuses.🌑 {
     width: 16px;
     height: 16px;
-    background: -0px -112px;
+    background-position: -0px -112px;
 }
 .statuses.🇧🇪 {
     width: 16px;
     height: 11px;
-    background: -16px -112px;
+    background-position: -16px -112px;
 }
 .statuses.🇨🇦 {
     width: 16px;
     height: 11px;
-    background: -32px -112px;
+    background-position: -32px -112px;
 }
 .statuses.🇪🇺 {
     width: 16px;
     height: 11px;
-    background: -64px -112px;
+    background-position: -64px -112px;
 }
 .statuses.🇮🇪 {
     width: 16px;
     height: 11px;
-    background: -96px -112px;
+    background-position: -96px -112px;
 }
 .statuses.🇵🇱 {
     width: 16px;
     height: 11px;
-    background: -112px -112px;
+    background-position: -112px -112px;
 }
 .statuses.🇫🇷 {
     width: 16px;
     height: 11px;
-    background: -80px -112px;
+    background-position: -80px -112px;
 }
 .statuses.🏴󠁧󠁢󠁥󠁮󠁧󠁿 {
     width: 16px;
     height: 11px;
-    background: -48px -112px;
+    background-position: -48px -112px;
 }
