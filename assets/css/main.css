@@ -200,6 +200,11 @@ a:hover{
     background: var(--title);
     padding: 20px;
     border-radius: 18px;
+    background-size: 102%;
+    background-position: -3px -240px;
+    border-style: solid;
+    border-color: var(--title);
+    border-width: 8px;
 }
 
 .gameTile .title {
