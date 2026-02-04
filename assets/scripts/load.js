@@ -11,6 +11,7 @@ let icon = document.createElement("link"); icon.rel = "icon"; icon.href="/assets
 
 document.head.appendChild(mainCSS);
 document.head.appendChild(silkCSS);
+document.head.appendChild(icon);
 
 function createNav(text,to){
     let e = document.createElement("a");
