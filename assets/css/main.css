@@ -102,12 +102,14 @@ main{
     width:min-content;
     margin-left:10px;
     margin-top:-25px;
+    margin-right:50px;
 }
 
 aside{
     width:15%;
     margin-right:10px;
     margin-top:-25px;
+    margin-left:50px;
 }
 
 small{
