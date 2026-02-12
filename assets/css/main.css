@@ -258,7 +258,7 @@ h1{
 
 .art{
     border:2px dashed #fff;
-    border-radius:5px;
+    border-radius:8px;
     padding:5px;
     transition:color 0.25s ease, border-color 0.25s ease;
 }
@@ -269,5 +269,6 @@ h1{
 
 .art img{
     image-rendering:smooth;
+    border-radius:4px;
     width:100%;
 }
