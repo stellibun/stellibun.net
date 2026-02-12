@@ -33,6 +33,7 @@
     --b4:#ff5fd2;
     --b5:#a653ff;
     --bH:#ffcdd1;
+    --bH1:#ba6b8c;
     --bH2:#ba6b8c55;
 }
 
@@ -152,6 +153,7 @@ a:hover{
     outline-offset:-5px;
     outline-width:2px;
     outline-color:transparent;
+    transition:color 0.25s ease, background-color 0.25s ease, outline-color 0.25s ease;
 }
 
 /*#navigation > .navButton:nth-of-type(even){
@@ -183,7 +185,6 @@ a:hover{
 }
 
 .navButton:hover{
-    transition:color 0.25s ease, background-color 0.25s ease, outline-color 0.25s ease;
     color:var(--navButtonHoverText);
     outline-style:dashed;
     outline-color:var(--bH2);
@@ -256,9 +257,14 @@ h1{
 }
 
 .art{
-    border:2px solid #fff;
+    border:2px dashed #fff;
     border-radius:5px;
     padding:5px;
+    transition:color 0.25s ease, border-color 0.25s ease;
+}
+
+.art:hover{
+    border-color:var(--bH1);
 }
 
 .art img{
