@@ -242,3 +242,23 @@ a:hover{
     outline-width: 2px;
     outline-color: #fff6;
 }
+
+.artContainer{
+    display:grid;
+    grid-template-columns:auto auto auto auto;
+    grid-gap: 17.5px;
+}
+
+h1{
+    margin:0;
+    margin-bottom:12.5px;
+    margin-left:10px;
+}
+
+.art{
+    border:1px solid #fff;
+    border-radius:5px;
+    padding:5px;
+    width:100%;
+    image-rendering:smooth;
+}
