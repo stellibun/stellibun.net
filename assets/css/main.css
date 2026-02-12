@@ -256,9 +256,12 @@ h1{
 }
 
 .art{
+    padding:5px;
+}
+
+.art img{
     border:2px solid #fff;
     border-radius:5px;
-    padding:5px;
-    width:100%;
     image-rendering:smooth;
+    width:100%;
 }
