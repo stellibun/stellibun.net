@@ -245,8 +245,8 @@ a:hover{
 
 .artContainer{
     display:grid;
-    grid-template-columns:auto auto auto auto;
-    grid-gap: 17.5px;
+    grid-template-columns:25% 25% 25% 25%;
+    grid-gap: 10px;
 }
 
 h1{
