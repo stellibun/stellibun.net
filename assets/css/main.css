@@ -185,7 +185,6 @@ a:hover{
 }
 
 .navButton:hover{
-    transition:color 0.25s ease, background-color 0.25s ease, outline-color 0.25s ease;
     color:var(--navButtonHoverText);
     outline-color:var(--bH2);
     background:var(--bH);
@@ -270,7 +269,6 @@ a:hover{
 }
 
 .gameButtons .navButton:hover{
-    transition:color 0.25s ease, background-color 0.25s ease, outline-color 0.25s ease;
     color:var(--navButtonHoverText);
     outline-color:var(--bH2);
     background:var(--bH);
