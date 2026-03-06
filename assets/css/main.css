@@ -325,3 +325,12 @@ ul{
 li{
     display: block;
 }
+
+line {
+  height: 1px;
+  display: block;
+  background: linear-gradient(90deg,var(--titleText),transparent);
+  margin-top: 5px;
+  margin-bottom: 5px;
+  width: 90%;
+}
