@@ -201,10 +201,10 @@ a:hover{
     outline-offset:-5px;
     outline-width:2px;
     background: var(--title);
+    background-position: center;
     padding: 20px;
     border-radius: 18px;
     background-size: 102%;
-    background-position: -3px -240px;
     border-style: solid;
     border-color: var(--title);
     border-width: 8px;
@@ -217,10 +217,13 @@ a:hover{
 }
 
 .gameInfo{
-    display:inline;
-    position:fixed;
-    margin-left: 10px;
-    margin-top: 5px;
+    display:grid;
+    grid-template-columns: 150px auto auto;
+    grid-gap: 15px;
+}
+
+.gameMetas{
+    margin-top:5px;
 }
 
 .gameMeta{
@@ -242,6 +245,39 @@ a:hover{
     outline-offset: -5px;
     outline-width: 2px;
     outline-color: #fff6;
+}
+
+.gameButtons .navButton{
+    color:var(--navButtonText);
+    background:var(--navButton);
+    padding:2px;
+    font-size:25;
+    margin-top:10px;
+    margin-left:auto;
+    margin-right:auto;
+    width:auto;
+    display:block;
+    border-radius:10px; 
+    text-align:center;
+    transition:none;
+    text-decoration: none;
+    text-shadow: 0px 0px rgba(0,0,0,0);
+    outline-style:none;
+    outline-offset:-5px;
+    outline-width:2px;
+    outline-color:transparent;
+    transition:color 0.25s ease, background-color 0.25s ease, outline-color 0.25s ease;
+}
+
+.gameButtons .navButton:hover{
+    color:var(--navButtonHoverText);
+    outline-style:dashed;
+    outline-color:var(--bH2);
+    background:var(--bH);
+}
+
+#ventureGameButtons{
+    
 }
 
 .artContainer{
