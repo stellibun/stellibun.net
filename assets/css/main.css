@@ -131,6 +131,11 @@ a:hover{
     grid-gap: 25px;
 }
 
+#nav{
+    position: sticky;
+    top: 10px;
+}
+
 #navigation{
     padding: 5px 15px 15px 15px !important
 }
