@@ -220,6 +220,7 @@ a:hover{
     display:grid;
     grid-template-columns: 150px auto auto;
     grid-gap: 15px;
+    filter:drop-shadow(#0006 1px 1px 2px);
 }
 
 .gameMetas{
@@ -228,11 +229,13 @@ a:hover{
 
 .gameMeta{
     margin-left:12px;
+    filter:drop-shadow(#0006 1px 1px 2px);
 }
 
 .gameMeta time{
     font-size:15px;
     font-weight:lighter;
+    filter:drop-shadow(#0006 1px 1px 2px);
 }
 
 .gameDescription{
