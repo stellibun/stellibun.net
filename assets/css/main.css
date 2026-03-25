@@ -234,6 +234,10 @@ a:hover{
     font-weight:lighter;
 }
 
+.gameDescription{
+    filter:drop-shadow(#0006 1px 1px 2px);
+}
+
 .gameIcon{
     display: inline;
     width: 150px;
