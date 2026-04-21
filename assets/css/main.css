@@ -305,7 +305,7 @@ h1{
 }
 
 h1:first-of-type{
-     margin-top:0px;
+     margin-top:-5px;
 }
 
 h2{
