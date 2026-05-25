@@ -1,0 +1,365 @@
+@font-face{
+    font-family:"Fredoka";
+    src:url("/assets/css/RetroByte.ttf");
+}
+
+:root{
+    --title:#42434f;
+    --content:#2d2d35;
+
+    --titleText:#fffff3;
+    --text:#fffff3;
+    --mutedText:#7a7f88;
+
+    --navButton:#ffeab3;
+    --navButtonText:#1a183c9b;
+    
+    --navButtonHover:#dc724e;
+    --navButtonHoverText:#79484c;
+
+    --navButtonOdd:#ffecd2;
+    --navButtonOddHover:#f0ab6a;
+
+    --link:var(--navButton);
+    --linkHover:var(--text);
+
+    --borderRad:0px;
+    
+    --textShadow:var(--content);
+    
+    --b1:#ffc085;
+    --b2:#ff9875;
+    --b3:#ff6e86;
+    --b4:#ff5fd2;
+    --b5:#a653ff;
+    --bH:#ffcdd1;
+    --bH1:#ba6b8c;
+    --bH2:#ba6b8c55;
+}
+
+body{
+    background-image:url("/assets/images/bg.png");
+    background-size: 48px;
+    image-rendering:pixelated;
+    font-family:"Fredoka";
+    font-size:16;
+    margin:0;
+    padding-bottom: 25px;
+}
+
+header{
+    margin-left:auto;
+    margin-right:auto;
+    max-width:1440px;
+    display:flex;
+}
+
+header a, header a img{
+    display:flex;
+    min-width:0;
+}
+
+#container{
+    display:flex;
+    flex-direction:row;
+    width:90%;
+    max-width:1296px;
+    margin-left:auto;
+    margin-right:auto;
+
+}
+
+.box{
+    border-radius:var(--borderRad);
+    filter:drop-shadow(#0006 7px 7px 10px);
+    margin-top:20px;
+}
+
+.title{
+    background-image:url("/assets/images/tile.png");
+    background-size:40px;
+    background-color:var(--title);
+    background-blend-mode:multiply;
+    color:var(--titleText);
+    font-size:25;
+    font-weight:bold;
+    aspect-ratio:50;
+    padding: 5px;
+    padding-left: 10px;
+    padding-top: 8px;
+    text-shadow: 2px 2px var(--textShadow);
+    letter-spacing: 2px;
+    border-top-left-radius:var(--borderRad);
+    border-top-right-radius:var(--borderRad);
+}
+
+.content{
+    background:var(--content);
+    color:var(--text);
+    padding:15px 20px 20px 20px;
+    border-bottom-left-radius:var(--borderRad);
+    border-bottom-right-radius:var(--borderRad);
+}
+
+p{
+    margin:0;
+}
+
+main{
+    flex-grow:1;
+    width:min-content;
+    margin-left:10px;
+    margin-top:-25px;
+    margin-right:50px;
+    display:grid;
+    grid-template-columns:repeat(auto-fit,40px);
+}
+
+aside{
+    width:15.5%;
+    margin-right:10px;
+    margin-top:-25px;
+    margin-left:50px;
+    display:grid;
+    direction:rtl;
+    grid-template-columns:repeat(auto-fit,40px);
+}
+
+aside > div{
+    grid-column:1/-1;
+    direction:ltr;
+}
+
+small{
+    color:var(--mutedText);
+}
+
+a{
+    color:var(--link);
+    text-decoration:dashed underline;
+}
+
+a:hover{
+    color:var(--linkHover);
+}
+
+.grid{
+    /*! grid-gap: 20; */
+}
+
+#nav{
+    position: sticky;
+    top: 10px;
+}
+
+#navigation{
+    padding: 5px 15px 15px 15px !important
+}
+
+.navButton{
+    color:var(--navButtonText);
+    background:var(--navButton);
+    padding:2px;
+    font-size:25;
+    margin-top:10px;
+    margin-left:auto;
+    margin-right:auto;
+    width:auto;
+    display:block;
+    border-radius:10px;
+    text-align:center;
+    transition:none;
+    text-decoration: none;
+    text-shadow: 0px 0px rgba(0,0,0,0);
+    outline-style:dashed;
+    outline-offset:-5px;
+    outline-width:2px;
+    outline-color:transparent;
+    transition:color 0.25s ease, background-color 0.25s ease, outline-color 0.25s ease;
+}
+
+/*#navigation > .navButton:nth-of-type(even){
+    background:var(--navButtonOdd);
+}
+
+#navigation > .navButton:nth-of-type(even):hover{
+    background:var(--navButtonOddHover);
+}*/
+
+.navButton:nth-child(1){
+    background:var(--b1);
+}
+
+.navButton:nth-child(2){
+    background:var(--b2);
+}
+
+.navButton:nth-child(3){
+    background:var(--b3);
+}
+
+.navButton:nth-child(4){
+    background:var(--b4);
+}
+
+.navButton:nth-child(5){
+    background:var(--b5);
+}
+
+.navButton:hover{
+    color:var(--navButtonHoverText);
+    outline-color:var(--bH2);
+    background:var(--bH);
+}
+
+#statuscafe-username {
+    color:var(--text);
+}
+
+.gameTile{
+    outline-style:dashed;
+    outline-color:var(--mutedText);
+    outline-offset:-5px;
+    outline-width:2px;
+    background: var(--title);
+    background-position: center;
+    padding: 20px;
+    border-radius: 18px;
+    background-size: 102%;
+    border-style: solid;
+    border-color: var(--title);
+    border-width: 8px;
+}
+
+.gameTile .title {
+    padding: 0;
+    background: transparent;
+    font-size: 30;
+}
+
+.gameInfo{
+    display:grid;
+    grid-template-columns: 150px auto auto;
+    grid-gap: 15px;
+    filter:drop-shadow(#0006 1px 1px 2px);
+}
+
+.gameMetas{
+    margin-top:5px;
+}
+
+.gameMeta{
+    margin-left:12px;
+    filter:drop-shadow(#0006 1px 1px 2px);
+}
+
+.gameMeta time{
+    font-size:15px;
+    font-weight:lighter;
+    filter:drop-shadow(#0006 1px 1px 2px);
+}
+
+.gameDescription{
+    filter:drop-shadow(#0006 1px 1px 2px);
+}
+
+.gameIcon{
+    display: inline;
+    width: 150px;
+    border-radius: 18px;
+    image-rendering: auto;
+    margin-bottom: 15px;
+    outline-style: dashed;
+    outline-offset: -5px;
+    outline-width: 2px;
+    outline-color: #fff6;
+}
+
+.gameButtons .navButton{
+    color:var(--navButtonText);
+    background:var(--navButton);
+    padding:2px;
+    font-size:25;
+    margin-top:10px;
+    margin-left:auto;
+    margin-right:auto;
+    width:auto;
+    display:block;
+    border-radius:10px; 
+    text-align:center;
+    transition:none;
+    text-decoration: none;
+    text-shadow: 0px 0px rgba(0,0,0,0);
+    outline-style:dashed;
+    outline-offset:-5px;
+    outline-width:2px;
+    outline-color:transparent;
+    transition:color 0.25s ease, background-color 0.25s ease, outline-color 0.25s ease;
+}
+
+.gameButtons .navButton:hover{
+    color:var(--navButtonHoverText);
+    outline-color:var(--bH2);
+    background:var(--bH);
+}
+
+#ventureGameButtons{
+    
+}
+
+.artContainer{
+    display:grid;
+    grid-template-columns:repeat(6,1fr);
+    grid-gap: 10px;
+}
+
+h1{
+    margin:0;
+    margin-bottom:-8px;
+    margin-left:10px;
+    margin-top: 15px;
+}
+
+h1:first-of-type{
+     margin-top:-5px;
+}
+
+h2{
+    margin:0;
+    margin-top:5px;
+}
+
+.art{
+    border:2px dashed #fff;
+    border-radius:8px;
+    padding:5px;
+    transition:color 0.25s ease, border-color 0.25s ease;
+}
+
+.art:hover{
+    border-color:var(--bH1);
+}
+
+.art img{
+    image-rendering:auto;
+    border-radius:4px;
+    width:100%;
+}
+
+ul{
+    margin: 0;
+    padding-left: 10px;
+}
+
+li{
+    display: block;
+}
+
+line {
+  height: 1px;
+  display: block;
+  background: linear-gradient(90deg,var(--titleText),transparent);
+  margin-top: 10;
+  margin-bottom: 10px;
+  width: 90%;
+}
