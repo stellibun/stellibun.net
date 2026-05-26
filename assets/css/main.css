@@ -296,7 +296,7 @@ a:hover{
     outline-offset:-5px;
     outline-width:2px;
     outline-color:transparent;
-    transition:color 0.25s ease, background-color 0.25s ease, outline-color 0.25s ease;
+    transition:color 0.25s ease, background 0.25s ease, outline-color 0.25s ease;
 }
 
 .gameButtons .navButton:hover{
@@ -305,8 +305,18 @@ a:hover{
     background:var(--bH);
 }
 
-#ventureGameButtons{
-    
+#ventureGameButtons .navButton{
+    background:linear-gradient(0deg,var(--navButton),var(--navButton));
+    border-radius:0;
+    border-width:3px;
+    border-style:double;
+    transition:none;
+}
+
+#ventureGameButtons .navButton:hover{
+    color:#275b41;
+    outline-color:#51ad5f;
+    background:linear-gradient(0deg,#7dc667,#c0f29b);
 }
 
 .artContainer{
