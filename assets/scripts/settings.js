@@ -48,6 +48,6 @@ function loadSettings(){
     setts = document.getElementById("settings");
 
     createCategory("Display",[
-        {name:"Dark Theme",default:true},
+        {name:"Dark Theme",default:false},
     ]);
 }

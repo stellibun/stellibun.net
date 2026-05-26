@@ -396,7 +396,7 @@ line {
 }
 
 input:checked + .slider{
-    transform:translateX(22px);
+    transform:translateX(24px);
 }
 
 input:checked +.slider{
