@@ -360,7 +360,8 @@ line {
 
 .setting{
     display: block;
-    height: 32px;
+    height: 24px;
+    margin-top: 5px;
 }
 
 .switch{
