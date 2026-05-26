@@ -7,6 +7,8 @@ function createSetting(name,parent){
     let n = document.createElement("p");
     n.textContent = name;
 
+    let li = document.createElement("line");
+
     let l = document.createElement("label");
     l.className = "switch";
 
@@ -19,6 +21,7 @@ function createSetting(name,parent){
     parent.appendChild(d);
 
     d.appendChild(n);
+    d.appendChild(li);
     d.appendChild(l);
 
     l.appendChild(c);
