@@ -1,6 +1,6 @@
 let setts;
 
-function createSetting(name,parent){
+function createSetting(name,parent,def){
     let d = document.createElement("div");
     d.className = "setting";
     
@@ -14,6 +14,7 @@ function createSetting(name,parent){
 
     let c = document.createElement("input");
     c.type = "checkbox";
+    if(def){c.checked = true;}
 
     let s = document.createElement("span");
     s.className = "slider";
@@ -39,13 +40,14 @@ function createCategory(category,settings){
     setts.appendChild(b);
 
     for(var i=0;i<settings.length;i++){
-        console.log(settings[i]);
-        createSetting(settings[i],setts);
+        createSetting(settings[i].name,setts,settings[i].default);
     }
 }
 
 function loadSettings(){
     setts = document.getElementById("settings");
 
-    createCategory("Display",["Theme"]);
+    createCategory("Display",[
+        ["name"="Dark Theme","default"=false],
+    ]);
 }
