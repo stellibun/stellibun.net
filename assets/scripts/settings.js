@@ -27,6 +27,12 @@ function createSetting(name,parent,def){
 
     l.appendChild(c);
     l.appendChild(s);
+
+    c.addEventListener("change", function() {
+        localStorage.setItem(name,this.checked);
+    });
+
+    localStorage.setItem(name,c.checked);
 }
 
 function createCategory(category,settings){
