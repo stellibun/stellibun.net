@@ -241,7 +241,7 @@ a:hover{
 
 .gameInfo{
     display:grid;
-    grid-template-columns: 150px auto auto;
+    grid-template-columns: 150px auto 25%;
     grid-gap: 15px;
     filter:drop-shadow(#0006 1px 1px 2px);
 }
