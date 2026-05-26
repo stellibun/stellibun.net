@@ -358,6 +358,11 @@ line {
   width: 90%;
 }
 
+.setting{
+    display: block;
+    height: 32px;
+}
+
 .switch{
     position: absolute;
     background:var(--title);

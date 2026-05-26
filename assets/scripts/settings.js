@@ -32,7 +32,7 @@ function createSetting(name,parent,def){
 function createCategory(category,settings){
     let e = document.createElement("h1");
     e.innerText = category;
-    e.style = "margin-left: 0;";
+    e.style = "margin-left: 0; margin-bottom:0;";
 
     let b = document.createElement("line");
 
@@ -48,6 +48,6 @@ function loadSettings(){
     setts = document.getElementById("settings");
 
     createCategory("Display",[
-        ["name"="Dark Theme","default"=false],
+        ["name"="Dark Theme","default"=true],
     ]);
 }
