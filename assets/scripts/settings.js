@@ -46,12 +46,3 @@ function loadSettings(){
 
     createCategory("Display",["Theme"]);
 }
-
-<div class="setting">
-    <p>settingName</p>
-    <line></line>
-    <label class="switch">
-        <input type="checkbox">
-        <span class="slider"></span>
-    </label>
-</div>
