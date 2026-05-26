@@ -1,7 +1,6 @@
 function createCategory(category,settings){
     let e = document.createElement("h1");
-    e.text = category;
-    console.log(category);
+    e.innerText = category;
     e.style = "margin-left: 0;";
 
     let b = document.createElement("line");
