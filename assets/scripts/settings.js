@@ -1,6 +1,6 @@
-function createCategory(text,settings){
+function createCategory(category,settings){
     let e = document.createElement("h1");
-    e.text = text;
+    e.text = category;
     e.style = "margin-left: 0;";
 
     let b = document.createElement("line");
@@ -8,7 +8,7 @@ function createCategory(text,settings){
     document.getElementById("settings").appendChild(e);
     document.getElementById("settings").appendChild(b);
 
-    for(var i=0;i<settings.length-1;i++){
+    for(var i=0;i<settings.length;i++){
         console.log(settings[i]);
     }
 }
