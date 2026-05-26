@@ -24,13 +24,15 @@ function createNav(text,to){
 
 function navButtons(){
     nav = document.getElementById("navigation");
-    
+
     createNav("Home","/");
     createNav("Games","/games/");
     createNav("Art","/art/");
     createNav("Blog","/blog/");
     createNav("Links","/links/");
     createNav("Settings","/settings/");
+
+    document.documentElement.setAttribute("theme",localStorage.getItem("theme"));
 }
 
 fetch("https://status.cafe/users/stellibun/status.json")

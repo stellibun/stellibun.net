@@ -20,7 +20,7 @@
     --navButtonOdd:#ffecd2;
     --navButtonOddHover:#f0ab6a;
 
-    --bg:url("assets/images/bg.png");
+    --bg:url("/assets/images/bg.png");
 
     --link:var(--navButton);
     --linkHover:var(--text);
@@ -44,6 +44,7 @@
 }
 
 /* false = light | true = dark | else = idfk */
+
 [theme="true"]{
     --bg:url("/assets/images/bgDark.png");
 }
