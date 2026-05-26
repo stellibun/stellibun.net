@@ -1,6 +1,10 @@
 let setts;
 
 function createSetting(name,parent,def){
+    if(localStorage.getItem(name)){
+        def = localStorage.getItem(name);
+    }
+
     let d = document.createElement("div");
     d.className = "setting";
     
@@ -14,7 +18,7 @@ function createSetting(name,parent,def){
 
     let c = document.createElement("input");
     c.type = "checkbox";
-    if(def){c.checked = true;}
+    if(def==="true"){c.checked = true;}
 
     let s = document.createElement("span");
     s.className = "slider";
@@ -54,6 +58,6 @@ function loadSettings(){
     setts = document.getElementById("settings");
 
     createCategory("Display",[
-        {name:"Dark Theme",default:false},
+        {name:"Dark Theme",default:"false"},
     ]);
 }
