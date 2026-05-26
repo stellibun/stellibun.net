@@ -20,6 +20,8 @@
     --navButtonOdd:#ffecd2;
     --navButtonOddHover:#f0ab6a;
 
+    --bg:url("assets/images/bg.png");
+
     --link:var(--navButton);
     --linkHover:var(--text);
 
@@ -41,8 +43,13 @@
     --bOff:#ff5d86;
 }
 
+/* false = light | true = dark | else = idfk */
+[theme="true"]{
+    --bg:url("/assets/images/bgDark.png");
+}
+
 body{
-    background-image:url("/assets/images/bg.png");
+    background-image:var(--bg);
     background-size: 48px;
     background-attachment:fixed;
     image-rendering:pixelated;
@@ -50,11 +57,6 @@ body{
     font-size:16;
     margin:0;
     padding-bottom: 25px;
-}
-
-/* false = light | true = dark | else = idfk */
-[theme="true"]body{
-    background-image:url("/assets/images/bgDark.png");
 }
 
 header{
