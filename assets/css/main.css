@@ -36,6 +36,9 @@
     --bH:#ffcdd1;
     --bH1:#ba6b8c;
     --bH2:#ba6b8c55;
+
+    --bOn:#7dff8a;
+    --bOff:#ff5d86;
 }
 
 body{
@@ -353,4 +356,51 @@ line {
   margin-top: 10;
   margin-bottom: 10px;
   width: 90%;
+}
+
+.switch{
+    position: absolute;
+    background:var(--bOff);
+    display: inline-block;
+    width: 48px;
+    height: 24px;
+    border-radius:100px;
+}
+
+.slider{
+    position: absolute;
+    background:var(--text);
+    display:inline;
+    margin: 2px;
+    width: 20px;
+    height: 20px;
+    border-radius:100%;
+    transition: .5s;
+}
+
+.setting p{
+    display: inline-block;
+}
+
+.setting line{
+    width: 1px;
+    height: 24;
+    margin:0px 10px -8px 10px;
+    background: linear-gradient(0deg,transparent,var(--titleText),transparent);
+    display: inline-block;
+}
+
+input:checked + .slider{
+    transform:translateX(22px);
+}
+
+input:checked +.slider{
+    background:var(--bOn);
+}
+
+input{
+    position: absolute;
+    opacity: 0;
+    width: 0;
+    height: 0;
 }
