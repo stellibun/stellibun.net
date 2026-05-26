@@ -8,6 +8,7 @@ document.characterSet = "UTF-8";
 let mainCSS = document.createElement("link"); mainCSS.rel = "stylesheet"; mainCSS.href = "/assets/css/main.css";
 let silkCSS = document.createElement("link"); silkCSS.rel = "stylesheet"; silkCSS.href = "/assets/css/silk.css";
 let icon = document.createElement("link"); icon.rel = "icon"; icon.href="/assets/images/icon.png";
+let nav;
 
 document.head.appendChild(mainCSS);
 document.head.appendChild(silkCSS);
@@ -18,10 +19,12 @@ function createNav(text,to){
     e.className = "navButton";
     e.text = text;
     e.href = to;
-    document.getElementById("navigation").appendChild(e);
+    nav.appendChild(e);
 }
 
 function navButtons(){
+    nav = document.getElementById("navigation");
+    
     createNav("Home","/");
     createNav("Games","/games/");
     createNav("Art","/art/");
