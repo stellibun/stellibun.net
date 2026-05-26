@@ -27,6 +27,7 @@ function navButtons(){
     createNav("Art","/art/");
     createNav("Blog","/blog/");
     createNav("Links","/links/");
+    createNav("Settings","/settings/");
 }
 
 fetch("https://status.cafe/users/stellibun/status.json")
