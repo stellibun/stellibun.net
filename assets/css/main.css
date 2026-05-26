@@ -360,7 +360,7 @@ line {
 
 .switch{
     position: absolute;
-    background:var(--bOff);
+    background:var(--title);
     display: inline-block;
     width: 48px;
     height: 24px;
@@ -369,7 +369,7 @@ line {
 
 .slider{
     position: absolute;
-    background:var(--text);
+    background:var(--bOff);
     display:inline;
     margin: 2px;
     width: 20px;
