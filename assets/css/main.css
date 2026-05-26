@@ -52,6 +52,11 @@ body{
     padding-bottom: 25px;
 }
 
+/* false = light | true = dark | else = idfk */
+[theme="true"]body{
+    background-image:url("/assets/images/bgDark.png");
+}
+
 header{
     margin-left:auto;
     margin-right:auto;

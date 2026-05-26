@@ -1,8 +1,8 @@
 let setts;
 
-function createSetting(name,parent,def){
-    if(localStorage.getItem(name)){
-        def = localStorage.getItem(name);
+function createSetting(id,name,parent,def){
+    if(localStorage.getItem(id)){
+        def = localStorage.getItem(id);
     }
 
     let d = document.createElement("div");
@@ -33,10 +33,11 @@ function createSetting(name,parent,def){
     l.appendChild(s);
 
     c.addEventListener("change", function() {
-        localStorage.setItem(name,this.checked);
+        localStorage.setItem(id,this.checked);
+        document.documentElement.setAttribute(id,this.checked);
     });
 
-    localStorage.setItem(name,c.checked);
+    document.documentElement.setAttribute(id,localStorage.getItem(id));
 }
 
 function createCategory(category,settings){
@@ -50,7 +51,7 @@ function createCategory(category,settings){
     setts.appendChild(b);
 
     for(var i=0;i<settings.length;i++){
-        createSetting(settings[i].name,setts,settings[i].default);
+        createSetting(settings[i].id,settings[i].name,setts,settings[i].default);
     }
 }
 
@@ -58,6 +59,6 @@ function loadSettings(){
     setts = document.getElementById("settings");
 
     createCategory("Display",[
-        {name:"Dark Theme",default:"false"},
+        {id:"theme",name:"Dark Theme",default:"false"},
     ]);
 }
