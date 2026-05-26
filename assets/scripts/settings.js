@@ -2,19 +2,19 @@ let setts;
 
 function createSetting(name,parent){
     let d = document.createElement("div");
-    d.class = "setting";
+    d.className = "setting";
     
     let n = document.createElement("p");
     n.textContent = name;
 
     let l = document.createElement("label");
-    l.class = "switch";
+    l.className = "switch";
 
     let c = document.createElement("input");
     c.type = "checkbox";
 
     let s = document.createElement("span");
-    s.class = "slider";
+    s.className = "slider";
 
     parent.appendChild(d);
 
