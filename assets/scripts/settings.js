@@ -13,6 +13,6 @@ function createCategory(text,settings){
     }
 }
 
-function settings(){
+function loadSettings(){
     createCategory("Display",["Theme"]);
 }
