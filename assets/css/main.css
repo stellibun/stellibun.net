@@ -315,7 +315,7 @@ a:hover{
     border-radius:0;
     border-width:3px;
     border-style:double;
-    transition:color 0.1s ease, background 0.1s ease, outline-color 0.1s ease;
+    transition:none;
 }
 
 #ventureGameButtons .navButton:hover{
@@ -345,7 +345,7 @@ a:hover{
 }
 
 #abyssmalGameButtons .navButton{
-    transition:color 0.1s ease, background 0.1s ease, outline-color 0.1s ease;
+    transition:none;
     border-radius:0;
     border-width:3px;
     border-style:double;
