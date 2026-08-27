@@ -3,6 +3,11 @@
     src:url("/assets/css/Fredoka-VariableFont.ttf");
 }
 
+@font-face{
+    font-family:"RetroByte";
+    src:url("/assets/css/RetroByte.ttf");
+}
+
 :root{
     --title:#42434f;
     --content:#2d2d35;
@@ -321,6 +326,7 @@ a:hover{
 
 #abyssmalGameButtons .navButton{
     transition:color 0.1s ease, background 0.1s ease, outline-color 0.1s ease;
+    font-family:"RetroByte";
     border-radius:0;
     border-width:3px;
     border-style:double;
