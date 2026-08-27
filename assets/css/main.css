@@ -319,6 +319,16 @@ a:hover{
     background:linear-gradient(0deg,#7dc667,#c0f29b);
 }
 
+#abyssmalGameButtons .navButton{
+    background:#0C071C;
+    color:#BFD9FF;
+}
+
+#abyssmalGameButtons .navButton:hover{
+    color:#292049;
+    outline-color:#BFD9FF;
+}
+
 .artContainer{
     display:grid;
     grid-template-columns:repeat(6,1fr);
