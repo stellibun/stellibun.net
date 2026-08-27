@@ -321,6 +321,9 @@ a:hover{
 
 #abyssmalGameButtons .navButton{
     border-radius:0;
+    border-width:3px;
+    border-style:double;
+    border-color:#BFD9FF;
     background:#0C071C;
     color:#BFD9FF;
 }
