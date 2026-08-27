@@ -324,6 +324,26 @@ a:hover{
     background:linear-gradient(0deg,#7dc667,#c0f29b);
 }
 
+#abyssmal{
+    font-family:"RetroByte";
+}
+
+#abyssmal .gameMetas .title{
+    font-size:35px;
+}
+
+#abyssmal .gameMetas .gameMeta{
+    font-size:20px;
+}
+
+#abyssmal .gameMetas .gameMeta time{
+    font-size:20px;
+}
+
+#abyssmal .gameDescription{
+    font-size:17px;
+}
+
 #abyssmalGameButtons .navButton{
     transition:color 0.1s ease, background 0.1s ease, outline-color 0.1s ease;
     border-radius:0;
@@ -332,10 +352,6 @@ a:hover{
     border-color:#BFD9FF;
     background:#0C071C;
     color:#BFD9FF;
-}
-
-#abyssmal{
-    font-family:"RetroByte";
 }
 
 #abyssmalGameButtons .navButton:hover{
