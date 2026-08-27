@@ -326,13 +326,16 @@ a:hover{
 
 #abyssmalGameButtons .navButton{
     transition:color 0.1s ease, background 0.1s ease, outline-color 0.1s ease;
-    font-family:"RetroByte";
     border-radius:0;
     border-width:3px;
     border-style:double;
     border-color:#BFD9FF;
     background:#0C071C;
     color:#BFD9FF;
+}
+
+#abyssmal{
+    font-family:"RetroByte";
 }
 
 #abyssmalGameButtons .navButton:hover{
